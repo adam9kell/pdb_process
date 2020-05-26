@@ -1,1 +1,2 @@
 # pdb_process
+this script modifies a protein data base .pdb file (rcsb.org) for use with spectralab. for a default file downloaded from the data base, the processing involves removing extraneous information and renaming or reordering molecules. if symmetry operators have been applied with pymol to generate a new file, then pdb_process() also reorders the atomic coordinates to conform with pdb format version 3.30
